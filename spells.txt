@@ -1,0 +1,18 @@
+space:
+1.supernova zap
+2.plasma sphere
+
+air:
+1.rasengan(you know thw reference)
+2.coming soon
+
+land:
+1.land spikes
+2.earth shield
+
+water:
+working
+
+fire:
+1.fireball
+2.fire wall
