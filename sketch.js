@@ -681,7 +681,7 @@ function firespell() {
       if (spelltimer >= 50) {
         spelltimer = 0;
         firespell1.velocityX = 0;
-        firespell1.visible = true;
+        firespell1.visible = false;
         firespell1_delay = 2;
       }
       if (spelltimer >= 20) {
