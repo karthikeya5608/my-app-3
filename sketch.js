@@ -658,7 +658,7 @@ function firespell() {
         firespell2.visible = true;
         fire_spell_2_timer = 1;
         firespell2_delay = 3;
-        firespell2.debug = true;
+        firespell2.debug = false;
         firespell2.addImage(firespellImage2);
         spelltimer = 1;
         player.addAnimation("idle", playerspell_cast);
