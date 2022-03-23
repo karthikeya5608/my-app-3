@@ -101,7 +101,7 @@ function preload() {
   airbg = loadImage("utility_images/airbg.jpg")
  // enemyidle=loadAnimation("enemy/idle1.png","enemy/idle2.png","enemy/idle3.png","enemy/idle4.png","enemy/idle5.png","enemy/idle6.png",)
  enemyidle=loadAnimation("enemy/output-onlinegiftools (1).png","enemy/output-onlinegiftools (2).png","enemy/output-onlinegiftools (3).png","enemy/output-onlinegiftools (4).png","enemy/output-onlinegiftools (5).png","enemy/output-onlinegiftools (6).png","enemy/output-onlinegiftools (7).png","enemy/output-onlinegiftools (8).png","enemy/output-onlinegiftools (9).png",)
- Images=loadImage("utility_images/END.png")
+ Images1=loadImage("utility_images/END.png")
  Images=loadImage("utility_images/LOSE.png") 
  enemyattack=loadAnimation("enemy/output-onlinegiftools (10).png","enemy/output-onlinegiftools (11).png","enemy/output-onlinegiftools (12).png","enemy/output-onlinegiftools (13).png","enemy/output-onlinegiftools (14).png","enemy/output-onlinegiftools (15).png","enemy/output-onlinegiftools (16).png","enemy/output-onlinegiftools (17).png","enemy/output-onlinegiftools (18).png")
 }
@@ -325,7 +325,7 @@ if(gamestate==="running"){
 
   if (simple_enemy_health <= 0) {
     gamestate="end";
-    end.addImage(Images);
+    end.addImage(Images1);
     end.visible=true;
     simple_enemy.velocityX=0;
   }
